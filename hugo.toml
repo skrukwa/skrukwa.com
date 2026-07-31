@@ -2,3 +2,14 @@ baseURL = 'https://skrukwa.com/'
 title = 'Evan Skrukwa'
 theme = 'hugo-coder'
 languageCode = 'en-us'
+
+[params]
+    colorScheme = "auto"
+
+[[menu.main]]
+    name = "Github"
+    url = "https://github.com/skrukwa/"
+
+[[menu.main]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/skrukwa/"
