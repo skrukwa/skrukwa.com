@@ -6,7 +6,7 @@ languageCode = 'en-us'
 [params]
     colorScheme = "auto"
     customSCSS = ["css/main.scss"]
-    customJS = ["js/toc.js"]
+    customJS = ["js/toc.js", "js/progress.js"]
 
 [params.entry]
     toc = true
