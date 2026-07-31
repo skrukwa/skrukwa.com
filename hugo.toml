@@ -6,6 +6,11 @@ languageCode = 'en-us'
 [params]
     colorScheme = "auto"
     customSCSS = ["css/main.scss"]
+    customJS = ["js/toc.js"]
+
+[params.entry]
+    toc = true
+    tocOpen = true
 
 [[menu.main]]
     name = "Github"

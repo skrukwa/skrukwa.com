@@ -1,0 +1,42 @@
+@media only screen and (min-width: 1365px) {
+    .toc {
+        position: sticky;
+        float: left;
+        top: 0;
+        margin-left: calc(max(-60% - 2rem, -50vw + 50% + 2rem));
+        max-width: calc(20vw - 4rem);
+        font-size: 1.6rem;
+        line-height: 1.1;
+        padding-top: 2em;
+        padding-left: 0em;
+        padding-right: 2em;
+    }
+    .toc > ul {
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+}
+
+.toc ul {
+    list-style-type: none;
+    padding-left: 1em;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.toc li,
+.toc a {
+    margin-top: 1.2rem;
+    color: darkgray;
+    transition: none;
+}
+
+.toc li.selected,
+.toc li.selected > a {
+    color: black;
+}
+
+body.colorscheme-dark .toc li.selected,
+body.colorscheme-dark .toc li.selected > a {
+    color: rgb(170, 211, 255);
+}
