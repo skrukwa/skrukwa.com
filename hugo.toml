@@ -12,6 +12,9 @@ languageCode = 'en-us'
     toc = true
     tocOpen = true
 
+[markup.highlight]
+    noClasses = false
+
 [[menu.main]]
     name = "Github"
     url = "https://github.com/skrukwa/"
