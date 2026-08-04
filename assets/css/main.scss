@@ -2,7 +2,11 @@
 @import "recent-posts";
 @import "progress";
 
+a {
+    transition: none;
+}
 .post * {
     text-align: left !important;
     hyphens: none !important;
 }
+
