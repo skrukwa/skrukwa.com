@@ -1,0 +1,27 @@
+@mixin inline-code-dark {
+    color: #ff7b72;
+    background-color: rgba(232, 232, 232, 0.06);
+    border-color: rgba(232, 232, 232, 0.15);
+}
+
+:not(pre) > code {
+    font-size: 0.875em;
+    color: #cf222e;
+    background-color: rgba(29, 28, 29, 0.04);
+    border: 1px solid rgba(29, 28, 29, 0.13);
+    border-radius: 0.3rem;
+    padding: 0.1rem 0.4rem 0.2rem;
+    word-break: break-word;
+}
+
+body.colorscheme-dark :not(pre) > code {
+    @include inline-code-dark();
+}
+
+body.colorscheme-auto {
+    @media (prefers-color-scheme: dark) {
+        :not(pre) > code {
+            @include inline-code-dark();
+        }
+    }
+}
