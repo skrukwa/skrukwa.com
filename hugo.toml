@@ -3,6 +3,9 @@ title = 'Evan Skrukwa'
 theme = 'hugo-coder'
 languageCode = 'en-us'
 
+[permalinks]
+    posts = "/posts/:slugorcontentbasename-:year-:month-:day/"
+
 [params]
     colorScheme = "auto"
     customSCSS = ["css/main.scss"]
