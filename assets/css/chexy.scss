@@ -1,0 +1,16 @@
+.chexy-image-single img {
+    border-radius: 0.8rem;
+    box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+}
+
+.chexy-image-pair img {
+    max-height: 60vh;
+    margin-right: 1.6rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+}
+@media only screen and (min-width: 768px) {
+    .chexy-image-pair img {
+        max-width: calc(50% - 2.4rem);
+    }
+}
